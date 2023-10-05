@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gowun+Dodum&display=swap');
+
+
+body {
+    background-color: #e7ffe7;
+    padding: 4em;
+    text-align: center;
+
+
+}
+
+header {
+    background-color: #CEFFCE;
+    max-width: 1600px;
+}
+
+.logo {
+    width: 180px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #061d0c;
+    text-decoration: none;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+.msg h2 {
+    color: #0e411c;
+}
+
+.icon {
+    width: 80px;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+.home-title {
+    color: #061d0c
+}
+
+
+
+#background {
+    height: 725px;
+    background-color: rgb(0, 162, 232);
+    color: #061d0c;
+
+
+}
+
+header {
+    background-color: #CEFFCE;
+}
+
+nav a:hover {
+    background-color: #bef1be;
+    color: #006dc7;
+    text-decoration: underline;
+}
+
+.book,
+.join {
+    background-color: #CEFFCE;
+    color: #061d0c;
+    text-decoration: none;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #bef1be;
+    color: #006dc7;
+    text-decoration: underline;
+
+}
+
+.msg {
+    background-color: #CEFFCE;
+}
+
+footer {
+    background-color: #0e411c;
+    color: #CEFFCE;
+
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #061d0c;
+    color: #006dc7;
+    text-decoration: underline;
+
+}

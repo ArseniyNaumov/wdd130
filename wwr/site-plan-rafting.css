@@ -8,7 +8,7 @@ Fonts are separated by a & */
     --primary-color: #0e411c;
     --secondary-color: #CEFFCE;
     --accent1-color: #FF9115;
-    --accent2-color: #09a0d8;
+    --accent2-color: #006dc7;
 
     /* change the values below to your chosen font(s) */
     --heading-font: "Anton";
@@ -23,10 +23,10 @@ Fonts are separated by a & */
     /* paragraph text on a white background */
     --paragraph-color-on-color: #ffffff;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #09a0d8;
+    --paragraph-background-color: #006dc7;
     --nav-link-color: #061d0c;
     --nav-background-color: #CEFFCE;
-    --nav-hover-link-color: #09a0d8;
+    --nav-hover-link-color: #006dc7;
     --nav-hover-background-color: #CEFFCE;
 }
 
