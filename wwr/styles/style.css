@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gowun+Dodum&display=swap');
+
 body {
     background-color: #e7ffe7;
     padding: 4em;
     text-align: center;
+    font-family: Gowun Dodum, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -9,10 +14,15 @@ body {
 header {
     background-color: #CEFFCE;
     max-width: 1600px;
+
 }
 
 .logo {
     width: 180px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #content {
@@ -24,6 +34,7 @@ nav a {
     text-align: center;
     color: #061d0c;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img {
@@ -33,14 +44,37 @@ nav a {
 #hero-msg h1,
 #hero-msg h4 {
     text-align: center;
+
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
 }
 
 .msg h2 {
     color: #0e411c;
+
+}
+
+h2 {
+    font-family: "Anton", Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .button-box {
@@ -52,7 +86,10 @@ main section {
 }
 
 .home-title {
-    color: #061d0c
+    color: #061d0c;
+    font-family: "Anton", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 
@@ -61,6 +98,7 @@ main section {
     height: 725px;
     background-color: rgb(0, 162, 232);
     color: #061d0c;
+    font-weight: bold;
 
 
 }
@@ -77,31 +115,53 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: #CEFFCE;
+    background-color: #b6e6b6;
     color: #061d0c;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #a0d1a0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover,
 .join:hover {
-    background-color: #bef1be;
+    background-color: #9ecc9e;
     color: #006dc7;
     text-decoration: underline;
 
 }
 
+.mountains {
+    margin: 100px;
+}
+
 .msg {
     background-color: #CEFFCE;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 150px;
 }
 
 footer {
     background-color: #0e411c;
     color: #CEFFCE;
-
+    padding: 25px 50px;
+    text-align: left;
+    margin: 200px;
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 0.7em;
+
 }
 
 footer a {
@@ -113,4 +173,8 @@ footer a:hover {
     color: #006dc7;
     text-decoration: underline;
 
+}
+
+footer .social img {
+    padding-top: 15px;
 }
