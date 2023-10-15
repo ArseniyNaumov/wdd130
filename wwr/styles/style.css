@@ -176,5 +176,8 @@ footer a:hover {
 }
 
 footer .social img {
-    padding-top: 15px;
+    padding: 10px 3px;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 30px;
 }
