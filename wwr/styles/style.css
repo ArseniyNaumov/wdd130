@@ -3,7 +3,7 @@
 body {
     background-color: #e7ffe7;
     padding: 4em;
-    text-align: center;
+
     font-family: Gowun Dodum, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ header {
 }
 
 .logo {
-    width: 180px;
+    width: 80px;
     margin: 30px;
 }
 
@@ -43,7 +43,7 @@ nav a {
 
 #hero-img {
     width: 100%;
-    margin-top: 60px;
+
 }
 
 #hero-msg h1,
@@ -157,11 +157,11 @@ main section img {
 }
 
 footer {
+    width: 100%;
     background-color: #0e411c;
     color: #CEFFCE;
-    padding: 25px 50px;
     text-align: left;
-    margin: 200px;
+
 }
 
 footer p {
