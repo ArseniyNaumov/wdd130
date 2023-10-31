@@ -43,8 +43,10 @@ h1 {
     left: 40%;
     font: 70px;
     font-weight: 600;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+
 }
 
 
