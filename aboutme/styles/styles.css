@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aptos');
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
 body {
 
     background-color: #f5f3ef;
     color: #283a31;
-    font-family: 'Public Sans', sans-serif;
+    font-family: Aptos, 'Public Sans', sans-serif;
 
 }
 
@@ -39,6 +43,8 @@ h1 {
     left: 40%;
     font: 70px;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
