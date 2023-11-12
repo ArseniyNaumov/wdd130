@@ -260,6 +260,33 @@ footer .social img {
 
 }
 
+/* HERE ARE THE 2nd PAGE CSS RULES*/
+
+#riverMain {
+    margin-left: 80px;
+}
+
+#rivers {
+    margin-top: 50px 0x 0x 0x;
+    font-size: 4em;
+    font-family: Gowun Dodum, Helvetica, sans-serif;
+
+}
+
+#choose {
+    font-family: Gowun Dodum, Helvetica, sans-serif;
+    margin-top: 0px 0x 50x 0x;
+    display: inline-flex
+}
+
+#idaho {
+    display: grid;
+    grid-template-columns: 50px 300px 200px 50px 100px;
+    grid-template-rows: 50px 350px 50px 50px 50px;
+    justify-items: center;
+}
+
+
 @media screen and (max-width: 900px) {
 
     #hero,
