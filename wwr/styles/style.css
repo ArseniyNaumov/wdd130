@@ -261,32 +261,232 @@ footer .social img {
 }
 
 /* HERE ARE THE 2nd PAGE CSS RULES*/
+/* HERE ARE THE 2nd PAGE CSS RULES*/
+/* HERE ARE THE 2nd PAGE CSS RULES*/
 
 #riverMain {
     margin-left: 80px;
 }
 
 #rivers {
-    margin-top: 50px 0x 0x 0x;
+    display: inline;
+    margin-top: 20px 0x 0x 0x;
     font-size: 4em;
     font-family: Gowun Dodum, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #061d0c;
 
 }
 
 #choose {
+    display: inline;
     font-family: Gowun Dodum, Helvetica, sans-serif;
-    margin-top: 0px 0x 50x 0x;
-    display: inline-flex
+    font-size: 2em;
+    position: relative;
+    top: 20px;
+    right: 205px;
+    color: #1a5a2b;
 }
+
+/*Idaho*/
 
 #idaho {
     display: grid;
-    grid-template-columns: 50px 300px 200px 50px 100px;
-    grid-template-rows: 50px 350px 50px 50px 50px;
-    justify-items: center;
+    grid-template-columns: 1fr 6fr 6fr 2fr 3fr 2fr;
+    grid-template-rows: 50px 550px 200px 100px 50px;
+    margin-bottom: 130px;
+}
+
+#idahoRiverName {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 30px;
+    z-index: 3;
+    font-family: Anton;
+    color: #041307;
+    position: relative;
+    bottom: 65px;
+}
+
+#idahoUnderbox {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    z-index: 2;
+    background-color: #9ecc9e;
+}
+
+#idahoRiverImage {
+    width: 100%;
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;
+    z-index: 1;
+}
+
+#idahoDescription {
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    background-color: #f5fff5;
+    border: 2px solid #0e411c;
+    padding: 30px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+#idahoButton {
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+}
+
+/*Utah*/
+
+#utah {
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr 2fr 3fr 2fr;
+    grid-template-rows: 50px 550px 200px 100px 50px;
+    margin-bottom: 130px;
+}
+
+#utahRiverName {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 30px;
+    z-index: 3;
+    font-family: Anton;
+    color: #041307;
+    position: relative;
+    bottom: 65px;
+}
+
+#utahUnderbox {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    z-index: 2;
+    background-color: #9ecc9e;
+}
+
+#utahRiverImage {
+    width: 100%;
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;
+    z-index: 1;
+}
+
+#utahDescription {
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    background-color: #f5fff5;
+    border: 2px solid #0e411c;
+    padding: 30px;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#utahButton {
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+}
+
+/*Arizona*/
+
+#arizona {
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr 2fr 3fr 2fr;
+    grid-template-rows: 50px 550px 200px 100px 50px;
+    margin-bottom: 130px;
+}
+
+#arizonaRiverName {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 30px;
+    z-index: 3;
+    font-family: Anton;
+    color: #041307;
+    position: relative;
+    bottom: 65px;
+}
+
+#arizonaUnderbox {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+    z-index: 2;
+    background-color: #9ecc9e;
+}
+
+#arizonaRiverImage {
+    width: 100%;
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;
+    z-index: 1;
+}
+
+#arizonaDescription {
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    background-color: #f5fff5;
+    border: 2px solid #0e411c;
+    padding: 30px;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#arizonaButton {
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* no traspassing */
+/* no traspassing */
+/* no traspassing */
+/* no traspassing */
+/* no traspassing */
 @media screen and (max-width: 900px) {
 
     #hero,
