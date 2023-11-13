@@ -282,10 +282,11 @@ footer .social img {
     display: inline;
     font-family: Gowun Dodum, Helvetica, sans-serif;
     font-size: 2em;
+    font-weight: bold;
     position: relative;
     top: 20px;
     right: 205px;
-    color: #1a5a2b;
+    color: #34864a;
 }
 
 /*Idaho*/
@@ -332,6 +333,7 @@ footer .social img {
     padding: 30px;
     z-index: 1;
     font-weight: bold;
+    font-size: 15px;
 }
 
 #idahoButton {
@@ -403,7 +405,7 @@ footer .social img {
 #arizona {
     display: grid;
     grid-template-columns: 1fr 10fr 2fr 2fr 3fr 2fr;
-    grid-template-rows: 50px 600px 150px 100px 50px;
+    grid-template-rows: 50px 550px 200px 100px 50px;
     margin-bottom: 130px;
 }
 
