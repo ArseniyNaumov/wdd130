@@ -2,18 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aptos');
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
 
-/*
-
 body {
-
     background-color: #f5f3ef;
     color: #283a31;
     font-family: Aptos, 'Public Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 1000vh;
-    margin: 0;
-
 }
 
 ul {
@@ -35,44 +27,55 @@ li a {
 
 li a:hover {
     background-color: #79aa92;
+    color: #ffffff;
 }
-
 
 a:link {
     text-decoration: none;
+}
+
+a:visited {
     color: #283a31;
 }
 
+
 h1 {
-    position: fixed;
-    top: 1%;
-    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font: 70px;
-    font-weight: 600;
     font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-
 }
 
 main {
-    flex: 1;
+    margin: 20px 0px 200px 0px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr 4fr 3fr;
+    grid-template-rows: 20px 50px 50px 350px;
+
 }
 
+
 h2 {
-    position: fixed;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: center;
+    /*position: fixed;
     top: 30%;
     right: 65%;
-    padding: 20px;
+    padding: 20px;*/
     font-size: 20px;
     font-weight: 700;
 }
 
+
 h3 {
-    position: fixed;
-    top: 45%;
-    right: 65%;
-    padding: 20px;
+    width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
     font-size: 14px;
     font-weight: 100;
     max-width: 300px;
@@ -80,23 +83,22 @@ h3 {
     text-justify: inter-word;
 }
 
-img {
-    position: fixed;
-    top: 150px;
-    left: 40%;
-    width: 600px;
-    filter: brightness(55%) contrast(160%)
+#photo {
+    width: 100%;
+    grid-column: 4 / 5;
+    grid-row: 1 / 6;
+    filter: brightness(65%) contrast(140%)
 }
-
 
 footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #0e411c;
+    align-items: left;
+    background: linear-gradient(to right, rgb(14, 65, 28), rgb(20, 97, 41));
     color: #CEFFCE;
-    padding: 20px 0;
-    text-align: center;
+    padding: 10px 10px;
+    text-align: left;
+    padding: 20px;
 
 }
 
@@ -109,17 +111,14 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-    background-color: #061d0c;
-    color: #006dc7;
-    text-decoration: underline;
-
-}
-
 footer .social img {
-
     width: 45px;
     height: 45px;
-    margin: 25px 2px 15px 2px;
+    margin: 25px 10px 15px 0px;
+}
 
+address {
+    background-color: #0e411c;
+    color: #217a39;
+    font-size: 12px;
 }
