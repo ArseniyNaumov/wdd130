@@ -1,13 +1,16 @@
+/* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Public+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aptos');
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
 
+/* Body Styles */
 body {
     background-color: #f5f3ef;
     color: #283a31;
     font-family: Aptos, 'Public Sans', sans-serif;
 }
 
+/* Navigation Styles */
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,40 +41,45 @@ a:visited {
     color: #283a31;
 }
 
+/* Logo Styles */
+#logo {
+    width: 120px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
 
+/* Heading Styles */
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font: 70px;
-    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font: 30px Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
+/* Main Content Styles */
 main {
-    margin: 20px 0px 200px 0px;
+    margin: 20px 0 200px 0;
     display: grid;
     grid-template-columns: 3fr 3fr 1fr 4fr 3fr;
     grid-template-rows: 20px 50px 50px 350px;
-
 }
 
-
+/* Subheading Styles */
 h2 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     text-align: center;
-    /*position: fixed;
-    top: 30%;
-    right: 65%;
-    padding: 20px;*/
     font-size: 20px;
     font-weight: 700;
+    color: #179257;
 }
 
-
+/* Additional Content Styles */
 h3 {
     width: 100%;
     grid-column: 2 / 3;
@@ -87,36 +95,35 @@ h3 {
     width: 100%;
     grid-column: 4 / 5;
     grid-row: 1 / 6;
-    filter: brightness(65%) contrast(140%)
+    filter: brightness(65%) contrast(140%);
 }
 
+/* Footer Styles */
 footer {
     display: flex;
     flex-direction: column;
-    align-items: left;
     background: linear-gradient(to right, rgb(14, 65, 28), #051a0b);
     color: #CEFFCE;
-    padding: 10px 10px;
+    padding: 20px 10px;
     text-align: left;
-    padding: 20px;
-
 }
 
 footer p {
     font-size: 0.7em;
-
 }
 
 footer a {
     text-decoration: none;
 }
 
+/* Social Media Icons Styles */
 footer .social img {
     width: 45px;
     height: 45px;
-    margin: 25px 10px 15px 0px;
+    margin: 25px 10px 15px 0;
 }
 
+/* Address Styles */
 address {
     background-color: #0e411c;
     color: #2b9748;
