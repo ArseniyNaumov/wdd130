@@ -94,7 +94,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: left;
-    background: linear-gradient(to right, rgb(14, 65, 28), rgb(20, 97, 41));
+    background: linear-gradient(to right, rgb(14, 65, 28), #051a0b);
     color: #CEFFCE;
     padding: 10px 10px;
     text-align: left;
@@ -119,6 +119,6 @@ footer .social img {
 
 address {
     background-color: #0e411c;
-    color: #217a39;
+    color: #2b9748;
     font-size: 12px;
 }
