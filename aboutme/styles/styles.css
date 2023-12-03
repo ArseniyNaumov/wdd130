@@ -129,3 +129,26 @@ address {
     color: #2b9748;
     font-size: 12px;
 }
+
+/* RESUME PAGE SPECIFICS*/
+.res {
+    text-align: center;
+}
+
+#resume_big {
+
+    width: 500px;
+    margin: 25px;
+}
+
+#resume_pdf,
+#resume_msw {
+    width: 100px;
+    margin: 25px;
+    border: 1px solid #0e411c;
+}
+
+#resume_pdf:hover,
+#resume_msw:hover {
+    filter: brightness(80%);
+}
