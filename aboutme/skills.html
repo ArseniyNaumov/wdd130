@@ -4,11 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>skills</title>
-    <!--<link rel="stylesheet" href="styles.css">-->
+    <title>home_page</title>
     <link rel="stylesheet" href="styles\styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Public+Sans&display=swap"
         rel="stylesheet">
 </head>
@@ -17,50 +14,315 @@
     <header>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="contactInfo.html">Contact</a></li>
+            <li><a href="index.html">Contact</a></li>
         </ul>
     </header>
-    <h1>RESUME </h1>
-    <main>
+    <img id="logo" src="images\myLogo.png" alt="White whinged letter A on the green star">
+    <h1>SKILLS</h1>
+    <main class="container">
+        <img id="iceberg" src="images\hardskills.jpg" alt="hardskills - top of the iceberg">
 
-        <img src="images\hardskills.jpg" alt="hardskills - top of the iceberg">
-        Hard Skills:
-        <br><br>
-        HTML, CSS<br>
-        JavaScript (beginner)<br>
-        MySQL (beginner)<br>
-        Logo Development<br>
-        Corel Draw, Corel Photo-Paint<br>
-        MS Word, Excel, Visio, PowerPoint<br>
-        Typing (35wpm)<br>
-        Simultaneous and sequential translation<br>
-        Wide Format Printing<br>
-        Computer Hardware<br>
-        Engine part replacement<br>
-        Car maintenance<br>
-        Hand drawing and sketching<br>
-        <br><br>
-        <img src="images\softskills.jpg" alt="soft skills - top of the iceberg">
-        Soft Skills:
-        <br><br>
-        Business Assistance<br>
-        Small project management<br>
-        Customer Service and Warranty Claim management<br>
-        Storage and Warehouse management<br>
-        Public Speaking and Presentations<br>
-        <br>
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>HTML,CSS</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>I have meticulously delved into the intricacies of HTML5 and CSS, extensively exploring the comprehensive
+                tutorials available on w3schools.com. My immersion in these topics was further deepened through Brigham
+                Young University Idaho courses, namely CIT 160 ("Introduction to Programming") and WDD130 ("Web
+                Fundamentals"), where I not only engaged but excelled, achieving excellence in both.
+                <br>
+                <br>
+                These courses have not only equipped me with a profound understanding of HTML5 and CSS but have also
+                provided a platform for showcasing my prowess in translating imaginative concepts into tangible HTML and
+                CSS code. My proficiency is not just limited to what I have learned within the confines of these
+                courses; rather, it extends to an innate curiosity and tenacity to seek solutions beyond my existing
+                knowledge.
+                <br>
+                <br>
+                Encountering challenges or encountering tasks that are yet unfamiliar to me is where my passion truly
+                ignites. I embark on a journey of research and study, exploring various options to identify the optimal
+                solution for each unique scenario. Subsequently, I meticulously apply this newfound knowledge,
+                rigorously self-testing through code validation to ensure a foolproof execution in everything I
+                undertake.
+                <br>
+                <br>
+                In essence, my approach is not merely about completing tasks, but about cultivating a thorough
+                understanding, continuously expanding my skill set, and ensuring the highest standards of quality
+                through rigorous self-validation. This commitment defines my dedication to excellence in the realm of
+                HTML and CSS.
+            </p>
+        </div>
 
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>JavaScript</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Immersing myself in the dynamic realm of JavaScript has been an exhilarating journey. My proficiency in
+                this language is underscored by my stellar performance in the CIT160 course, "Introduction to
+                Programming," at Brigham Young University Idaho, where I not only completed the course but did so with
+                excellence.
+                <br>
+                <br>
+                Fueling my passion further, I am currently engrossed in an enriching exploration of JavaScript
+                essentials through the comprehensive curriculum provided by https://courses.wesbos.com/. This self-paced
+                learning experience, initiated with the CIT160 course, is expected to culminate by April 2024, adhering
+                to the outlined plan, or potentially at an accelerated pace, given the demand.
+                <br>
+                <br>
+                JavaScript has become more than just a programming language to me; it is a versatile tool that
+                seamlessly integrates into various facets of my life. I find myself effortlessly contemplating solutions
+                and envisioning tasks through the lens of JavaScript. The language's flexibility and power captivate me,
+                making it my cornerstone programming language.
+                <br>
+                <br>
+                As I progress through the Wes Bos courses, I am not merely acquiring skills; I am cultivating a profound
+                understanding of JavaScript's intricacies. Beyond this, I envision an expansion of my technical
+                repertoire into BootCamp technologies, Flavio Copes' insights, the utility of Tailwind, and the dynamic
+                world of PHP through Laracast. This strategic trajectory, spanning the next eight months or sooner,
+                reflects my commitment to continuous growth and adaptability in the ever-evolving landscape of web
+                development. JavaScript is not just a language in my toolkit; it is the driving force propelling me
+                towards mastery and innovation.
+            </p>
+        </div>
 
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>MySQL</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>In the immersive journey through CIT111 at BYUI, I discovered that working with Entity-Relationship
+                Diagrams (ERD) in MySQL Workbench 8.0 CE was more than just a course—it resonated with a part of me that
+                existed even before formal study. As a visual learner, crafting ERDs became an innate pleasure, a
+                natural extension of my thought process.
+                <br>
+                <br>
+                The joy of translating abstract concepts into tangible structures, of reverse and forward engineering
+                ERDs, and of populating databases from the ground up with code was an experience that felt like an
+                intrinsic part of who I am. Beyond the technicalities, writing queries adorned with joins, orders,
+                groups, and path functions became a creative endeavor—a symphony of logic and design.
+                <br>
+                <br>
+                ERDs ceased to be a mere coursework requirement; they became a canvas through which I expressed my
+                understanding of data relationships. It was a delightful exploration of form and function, where each
+                line of code felt like a stroke of a paintbrush, bringing a complex, interconnected world to life.
+                <br>
+                <br>
+                In essence, ERD creation wasn't just a skill I acquired—it was a passion that had found its medium. The
+                process of transforming abstract ideas into visually comprehensible structures was a journey that
+                resonated deeply with my visual learning style, making every step of it a genuine pleasure.
+            </p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Logo Development</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>I possess a distinct talent for crafting impactful logo designs, seamlessly blending brand names,
+                acronyms, and simple shapes. Whether sketching with pencil or utilizing digital tools like Corel Draw,
+                MS Visio, or even PowerPoint, my creative process is versatile and effective.
+                <br>
+                <br>
+                Notably, my logo design for Barter Alahona company in Ufa, Russia, stands as a testament to the
+                practical application of my skills. Additionally, my self-created personal logo further exemplifies the
+                depth of my design capabilities.
+                <br>
+                <br>
+                These logos are not just static images; they embody my ability to distill brand essence into visually
+                compelling symbols. Specific examples of my work are readily available upon request, showcasing the
+                breadth and quality of my logo design portfolio.
+            </p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Hand drawing and sketching</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>With a versatile talent for hand-drawn sketches, I bring any concept to life—be it human-made objects,
+                landscapes, animals, human figures (excluding faces), logos, interiors, or cars. My proficiency in
+                engineering drawings, honed both in pencil and AutoCAD 2004 during my years at Ural State Technical
+                University, ensures that all engineers can readily comprehend and appreciate the precision of my drafts.
+                <br>
+                <br>
+                Whether it's intricate mechanical designs or the fluid lines of an RV compartment, my ability to
+                articulate concepts visually extends to the realm of engineering. The clarity and accuracy embedded in
+                my sketches make them accessible and understandable to any fellow engineer or a coworker, fostering
+                effective
+                communication in the language of design. Moreover, my swift creation of website wireframes further
+                attests to the efficiency and proficiency I bring to every project.
+            </p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Corel Draw, Corel Photo-Paint</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Proficient in CorelDRAW X13, my design capabilities extend seamlessly to various environments. This
+                mastery serves as a testament to my adaptability, showcasing the skills needed to navigate and excel in
+                other design platforms, including Adobe, Figma, or any contemporary design tool. Whether in the realm of
+                web design or beyond, my proficiency in CorelDRAW X13 underscores my ability to swiftly acclimate and
+                excel in diverse design environments.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Canva</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Having delved into the intricacies of Canva through the LinkedIn Learning course "Canva Essentials" by
+                Nick Brazzi, I've acquired a nuanced understanding of how to harness its features effectively. My
+                approach to Canva is not only influenced by an inherent taste for design inherited from both of my
+                designer parents but is also enriched by the integration of AI functions.
+                <br>
+                <br>
+                The course has empowered me to seamlessly translate ideas into visually appealing images and design
+                patterns, utilizing Canva's diverse capabilities. The incorporation of AI functionalities within Canva
+                has proven to be a game-changer, significantly reducing the time required for transforming concepts into
+                polished designs. This newfound proficiency in Canva, bolstered by both learned and instinctual design
+                sensibilities, positions me to create compelling visuals with efficiency and flair.
+            </p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>MS Office</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>I've extensively explored the essentials of Microsoft Office applications, navigating courses on Word,
+                Excel, and PowerPoint through LinkedIn Learning. With guidance from renowned instructors like David
+                Rivers, Dennis Taylor, and Jess Stratton, I've honed my skills to leverage the full potential of these
+                tools.
+                <br><br>
+                My journey with MS Visio dates back to 2006 when I received thorough training in the Russian Navy,
+                creating intricate navy maps with precision. Since then, Visio has become an integral part of my
+                workflow, a go-to tool for visualizing ideas with clarity and detail.
+                <br><br>
+                My education at Brigham Young University Idaho (BYUI) has further solidified my proficiency in Word and
+                Excel, making me adept at handling diverse tasks within these applications. Beyond academic endeavors,
+                my expertise seamlessly integrates into my freelance work, where I use PowerPoint daily to communicate
+                ideas effectively. The positive feedback from Rogers Company representatives underscores the success of
+                this approach, as they consistently express high satisfaction with the quality and impact of my
+                presentations.
+            </p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Typing</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Simultaneous and sequential translation</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Wide Format Printing</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Computer Hardware</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Car driving, maintenance, and part replacement</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <img id="iceberg" src="images\softskills.jpg" alt="soft skills - top of the iceberg">
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Business Assistance</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Loyalty and Work Ethics</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Customer Service and Warranty Claim management</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
+
+        <div class="collapsible" onclick="toggleContent(this)">
+            <h2>Public Speaking and Presentations</h2>
+            <div class="arrow">&#9660;</div>
+        </div>
+        <div class="content">
+            <p>Text for Heading 2 goes here.</p>
+        </div>
     </main>
 
-
     <footer>
-        <address>Created by Naumov Design Bureau. 2023 ©</address>
-        <a href="siteplan.html" target="_blank" style="color:#1c291c">SitePlan</a>
+        Stay connected with me on social media:
+        <div class="social">
+            <a href="https://www.linkedin.com/in/arseniy-naumov/" target="_blank">
+                <img src="images/linkedIn.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://www.facebook.com/thelionofthelord" target="_blank">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com/arseniy.v.naumov/" target="_blank">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+            <a href="https://wa.me/18328321425" target="_blank">
+                <img src="images/whatsapp.png" alt="Whatsapp Icon">
+            </a>
+            <a href="https://t.me/arseniy_v_naumov" target="_blank">
+                <img src="images/telegram.png" alt="Whatsapp Icon">
+            </a>
+        </div>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:60px;height:21px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+
+
     </footer>
+    <address>Created by Naumov Design Bureau. 2023 ©</address>
+    <script>
+        function toggleContent(element) {
+            const content = element.nextElementSibling;
+            element.classList.toggle('open');
+            content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
 </body>
 
 </html>
