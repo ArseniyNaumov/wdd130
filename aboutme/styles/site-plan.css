@@ -76,8 +76,8 @@ hr {
 header {
     padding: 1em;
     text-align: center;
-    color: var(--headline-color-on-color);
-    background-color: var(--paragraph-background-color);
+    background-color: #79aa92;
+    color: #283a31;
 }
 
 header>h1,
@@ -123,9 +123,10 @@ p {
     background-color: var(--accent2-color);
 }
 
+/*HERE!!!*/
 p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
+    background-color: #79aa92;
+    color: #283a31;
 }
 
 nav {
