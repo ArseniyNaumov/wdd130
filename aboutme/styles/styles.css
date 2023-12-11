@@ -8,6 +8,8 @@ body {
     background-color: #f5f3ef;
     color: #283a31;
     font-family: Aptos, 'Public Sans', sans-serif;
+    overflow: auto;
+    position: relative;
 }
 
 /* Navigation Styles */
@@ -16,6 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 li {
@@ -29,8 +32,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #79aa92;
-    color: #ffffff;
+    background-color: #f5f3ef;
+    color: #17e404;
 }
 
 a:link {
@@ -63,7 +66,7 @@ h1 {
 
 /* Main Content Styles */
 main {
-    margin: 20px 0 200px 0;
+    margin: 20px 0px 100px 0px;
     display: grid;
     grid-template-columns: 3fr 3fr 1fr 4fr 3fr;
     grid-template-rows: 20px 50px 50px 350px;
@@ -96,6 +99,21 @@ h3 {
     grid-column: 4 / 5;
     grid-row: 1 / 6;
     filter: brightness(65%) contrast(140%);
+}
+
+#welcomeText {
+    padding: 0px 200px 100px 200px;
+    text-align: justify;
+}
+
+.watermark {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    bottom: 180px;
+    left: 0px;
+
+    z-index: -1;
 }
 
 /* Footer Styles */

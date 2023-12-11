@@ -7,10 +7,10 @@ Fonts are separated by a | */
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #318a5e;
-    --secondary-color: #283a31;
-    --accent1-color: #17e404;
-    --accent2-color: #eff5ef;
+    --primary-color: #283a31;
+    --secondary-color: #f5f3ef;
+    --accent1-color: #79aa92;
+    --accent2-color: #10911b;
 
     /* change the values below to your chosen font(s) */
     --heading-font: Oswald, sans-serif;
@@ -23,9 +23,9 @@ Fonts are separated by a | */
     /* headlines on a colored background */
     --paragraph-color-on-white: #283a31;
     /* paragraph text on a white background */
-    --paragraph-color-on-color: #eff5ef;
+    --paragraph-color-on-color: #f5f3ef;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #318a5e;
+    --paragraph-background-color: #d9ffd9;
     --nav-link-color: #283a31;
     --nav-background-color: #eff5ef;
     --nav-hover-link-color: #17e404;
